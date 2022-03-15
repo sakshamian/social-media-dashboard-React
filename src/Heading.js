@@ -1,20 +1,14 @@
-import { useState } from "react";
+import { useState } from 'react';
 import './Heading.css';
 
 function Heading(props){
-    const toggle = document.getElementById('toggler');
-    const body = document.querySelector('body');
-    
-    function switchMode(){
-        if(toggle.checked){
-            body.classList.remove('dark');
-            body.classList.add('light');
-        }
-        else{
-            body.classList.remove('light');
-            body.classList.add('dark');
-        }
+    const body = document.querySelector("body");
+    body.classList.add('dark');
+    function switchMode(theme) {
+        body.classList.toggle('light');
+        body.classList.toggle('dark');
     }
+
     return (
         <div className="header">
             <div className="left-header">

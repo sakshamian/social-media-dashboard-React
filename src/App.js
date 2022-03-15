@@ -6,9 +6,6 @@ import Overview from './Overview';
 import LowerCards from './LowerCards';
 
 function App(){
-  // const toggle = document.getElementById('toggler');
-  const body = document.querySelector('body');
-  body.classList.add('dark');
   
   return (
       <div className='main'>

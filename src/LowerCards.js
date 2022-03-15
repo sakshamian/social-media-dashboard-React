@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './LowerCards.css';
 
 const rowOne = [
