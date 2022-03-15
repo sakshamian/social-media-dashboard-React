@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './Heading.css';
 
 function Heading(props){

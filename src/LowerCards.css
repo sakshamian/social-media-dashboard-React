@@ -28,8 +28,3 @@
         font-size: 2rem;
     }
 }
-@media screen and (max-width: 1300px) {
-    .column{
-      width: 24%;
-    }
-  }
